@@ -1,0 +1,10 @@
+practica6\practica6\Practica6Application.class
+practica6\practica6\controllers\UsuarioController.class
+practica6\practica6\controllers\HomeController.class
+practica6\practica6\services\UsuarioRolService.class
+practica6\practica6\models\Usuario.class
+practica6\practica6\services\UsuarioService.class
+practica6\practica6\models\Rol.class
+practica6\practica6\models\UsuarioRol.class
+practica6\practica6\controllers\inventarioControllers.class
+practica6\practica6\services\RolService.class
