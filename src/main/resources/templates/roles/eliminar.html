@@ -25,24 +25,20 @@
             </div>
             <div class="card-body">
               <form action="/roles" method="POST">
-                <!-- Campo de correo electrónico (prellenado) -->
                 <div class="form-group">
                   <label for="email">Correo Electrónico</label>
                   <input type="email" class="form-control" id="email" name="email" value="usuario@ejemplo.com" placeholder="Correo electrónico del usuario" readonly>
                 </div>
 
-                <!-- Campo de rol (prellenado) -->
                 <div class="form-group">
                   <label for="role">Rol</label>
                   <input type="text" class="form-control" id="role" name="role" value="Administrador" readonly>
                 </div>
 
-                <!-- Mensaje de confirmación -->
                 <div class="form-group">
                   <p class="text-danger">¿Estás seguro de que deseas eliminar este usuario? Esta acción no puede deshacerse.</p>
                 </div>
 
-                <!-- Botones de Acción -->
                 <div class="form-group">
                   <button type="submit" class="btn btn-danger">Eliminar Usuario</button>
                   <a href="/roles" class="btn btn-secondary">Cancelar</a>
